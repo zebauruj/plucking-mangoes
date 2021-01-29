@@ -10,7 +10,7 @@ class tree
 		
 		this.image=loadImage("images/tree.png")
 		
-		this.body=Bodies.rectangle(x,y,450,10,{isSatic:true});
+		this.body=Bodies.rectangle(x,y,450,10,{isStatic:true});
 		World.add(world, this.body)
 		
 	}
